@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/side_nav_bar"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <!--<ImageView-->
+        <!--android:id="@+id/imageView"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:paddingTop="@dimen/nav_header_vertical_spacing"-->
+        <!--app:srcCompat="@mipmap/ic_launcher_round" />-->
+
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:paddingTop="@dimen/nav_header_vertical_spacing"-->
+        <!--android:text="Android Studio Thavath"-->
+        <!--android:textAppearance="@style/TextAppearance.AppCompat.Body1" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="android.thavath@android.com"-->
+        <!--android:textIsSelectable="true"-->
+        <!--android:paddingTop="5dp" />-->
+    <!--<EditText-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:padding="5dp"-->
+        <!--android:paddingTop="10dp"-->
+        <!--/>-->
+    <!--<Button-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Button One"-->
+        <!--android:background="#3F51B5"-->
+        <!--android:id="@+id/btn_1"-->
+        <!--android:onClick="onButton1"-->
+        <!--/>-->
+    <!--<ImageButton-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:src="@drawable/ic_menu_camera"-->
+        <!--android:padding="10dp"-->
+        <!--android:background="#FF4081"-->
+        <!--android:id="@+id/btn_2"-->
+        <!--android:onClick="onButton2"-->
+        <!--/>-->
+    <!--<Button-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="#3F51B5"-->
+        <!--android:padding="10dp"-->
+        <!--android:text="Button Second"-->
+        <!--android:drawableLeft="@drawable/ic_menu_camera"-->
+        <!--android:id="@+id/btn_3"-->
+        <!--android:onClick="onButton3"-->
+        <!--/>-->
+    <!--<ToggleButton-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/toggle_button"-->
+        <!--android:textOff="state off"-->
+        <!--android:textOn="state on"-->
+        <!--android:background="@color/colorAccent"-->
+        <!--/>-->
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:orientation="vertical"-->
+        <!--&gt;-->
+        <!--<CheckBox-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textSize="40dp"-->
+            <!--android:textStyle="bold"-->
+            <!--android:text="Male"-->
+            <!--android:onClick="onEventHandler"-->
+            <!--android:id="@+id/c_male"/>-->
+        <!--<CheckBox-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textSize="40dp"-->
+            <!--android:textStyle="bold"-->
+            <!--android:text="Female"-->
+            <!--android:onClick="onEventHandler"-->
+            <!--android:id="@+id/c_female"/>-->
+        <!--<CheckBox-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textSize="40dp"-->
+            <!--android:textStyle="bold"-->
+            <!--android:text="Other"-->
+            <!--android:onClick="onEventHandler"-->
+            <!--android:id="@+id/c_other"/>-->
+    <!--</LinearLayout>-->
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Uploading"-->
+        <!--android:textSize="25dp"-->
+        <!--android:textStyle="bold"-->
+        <!--android:textColor="#FFF"/>-->
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="vertical"-->
+        <!--android:layout_marginTop="20dp">-->
+        <!--<RadioGroup-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/rd_group"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:paddingBottom="5dp">-->
+            <!--<RadioButton-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Male"-->
+                <!--android:textStyle="bold"-->
+                <!--android:textSize="20dp"-->
+                <!--android:id="@+id/rd_male"-->
+                <!--android:onClick="onUpload"-->
+                <!--/>-->
+            <!--<RadioButton-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Female"-->
+                <!--android:textStyle="bold"-->
+                <!--android:textSize="20dp"-->
+                <!--android:id="@+id/rd_female"-->
+                <!--android:onClick="onUpload"-->
+                <!--/>-->
+            <!--<RadioButton-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Other"-->
+                <!--android:textStyle="bold"-->
+                <!--android:textSize="20dp"-->
+                <!--android:id="@+id/rd_other"-->
+                <!--android:onClick="onUpload"-->
+                <!--/>-->
+        <!--</RadioGroup>-->
+
+    <!--</LinearLayout>-->
+    <!--<EditText-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:hint="Input your text "-->
+        <!--android:inputType="textPassword"-->
+        <!--android:textSize="20dp"-->
+        <!--android:id="@+id/textInput"-->
+        <!--/>-->
+    <!--<Button-->
+        <!--android:layout_marginTop="5dp"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@color/colorAccent"-->
+        <!--android:text="Show Text"-->
+        <!--android:id="@+id/btnS"-->
+        <!--/>-->
+    <!--<Button-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@color/colorPrimary"-->
+        <!--android:text="Time Picker"-->
+        <!--android:id="@+id/btn_time_picker"-->
+        <!--/>-->
+    <!--<Button-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@color/colorAccent"-->
+        <!--android:text="Data Picker"-->
+        <!--android:id="@+id/btn_date_picker"-->
+        <!--/>-->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/v_image"
+        android:src="@drawable/ic_menu_gallery"
+        android:scaleType="center"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_change"
+        android:text="click to change image"
+        android:background="@color/colorAccent"
+        android:textStyle="bold"
+        android:onClick="onChanged"
+        />
+
+</LinearLayout>
